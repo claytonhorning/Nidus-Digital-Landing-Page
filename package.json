@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/claytonhorning/Tailwind-Starter#readme",
   "dependencies": {
+    "@tailwindcss/forms": "^0.4.0",
     "autoprefixer": "^10.4.2",
     "live-server": "^1.2.1",
     "postcss": "^8.4.6",

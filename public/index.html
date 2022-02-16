@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./style.css" rel="stylesheet" />
-    <title>Tailwind Starter</title>
+    <title>Nidus Digital - Web & Mobile App Development</title>
   </head>
   <body>
     <nav class="bg-black border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-black">
@@ -22,13 +22,13 @@
         <div class="hidden w-full md:block md:w-auto" id="menu">
           <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
             <li>
-              <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              <a href="#about" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+              <a href="#services" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
             </li>
             <li>
-              <a href="#" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+              <a href="#contact" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
             </li>
           </ul>
         </div>
@@ -40,13 +40,13 @@
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-wide">Results driven <br> digital agency for <br> emerging brands.</h1>
           <p class="text-base md:text-lg opacity-75 w-full md:w-10/12 leading-7">From designing to developing to launching 🚀, we've got you covered. Nidus Digital is web & mobile development agency that focuses on utilizing the right tools to achieve your goals.</p>
           <div class="flex items-center">
-            <button class="w-36 py-2.5 px-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md transition ease-in-out hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75 duration-300">Schedule Call</button>
-            <a class="mx-5 md:mx-10 cursor-pointer text-blue-500 transition ease-in-out hover:text-blue-700 font-semibold duration-300">Learn more &rarr;</a>
+            <button class="btn-primary"><a href="#schedule-call">Schedule Call</a></button>
+            <a href="#services" class="mx-5 md:mx-10 cursor-pointer text-blue-500 transition ease-in-out hover:text-blue-700 font-semibold duration-300">Learn more &rarr;</a>
           </div>
         </div>
         <div class="flex flex-col w-full md:w-6/12 mt-10 md:mt-0 items-center justify-center">
           <video autoplay muted loop width="600">
-            <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+            <source src="./media/hero-video.mp4" type="video/mp4">
           Your browser does not support the video tag.
           </video>
         </div>
@@ -61,15 +61,168 @@
       </div>
     </section>
     <section id="services">
-      <div class="container flex my-12 md:my-32 px-5 xl:mx-auto">
-        <div class="flex flex-col items-center w-6/12">
-          hello
+      <div class="flex flex-col items-center mx-5">
+        <h3 class="font-bold mt-12">SERVICES</h3>
+        <h1 class="text-4xl my-4 font-semibold text-center">From design to development and beyond</h1>
+        <p class="text-base md:text-lg opacity-75 text-center w-full md:w-6/12 leading-7">Not only do we build amazing websites and mobile applications, we also make sure that your customers engage with what we've built.</p>
+      </div>
+      <div class="container flex flex-col md:flex-row my-20 px-5 xl:mx-auto justify-center items-center">
+        <div class="flex flex-col items-center">
+          <h3 class="text-center text-2xl border-b-4 border-blue-400 pb-1 mb-5">Web Development</h3>
+          <img class="w-10/12" src="./img/web.jpg" alt="Web Development">
         </div>
-        <div class="flex flex-col items-center w-6/12">
-          hello
+        <div class="w-full md:w-6/12 mx-10">
+          <p>We all know the importance of having a strong web presence in today's digital age, but what are we doing to optimize our company’s performance online? <br><br> Nidus Digital specializes in creating effective mobile friendly websites that meet the needs of your business whether that be exposure, getting phone calls, or driving foot traffic to your store. <br><br> Our team analyzes your specific goals and develops a plan to achieve those milestones through using the best design principles and technologies available on the market.</p>
+        </div>
+      </div>
+      <div class="container flex flex-col md:flex-row my-10 px-5 xl:mx-auto justify-center items-center">
+        <div class="flex flex-col items-center">
+          <h3 class="text-center text-2xl border-b-4 border-blue-400 pb-1 mb-5">Mobile Development</h3>
+          <img class="w-10/12" src="./img/mobile-dev.jpg" alt="Mobile Development">
+        </div>
+        <div class="w-full md:w-6/12 mx-10 my-10">
+          <p>The average American spends over 5 hours on their mobile device every day. Mobile has been trending upward for the last decade and is predicted to continue this trend for the foreseeable future. <br><br> Nidus Digital uses the best mobile frameworks used by tech giants such as FaceBook to develop high quality mobile applications that result in a positive experience for end users.<br><br> Through using react native, we are able to develop for Android and iOS simultaneously resulting in lower costs of development and an easier to maintain codebase.</p> 
+        </div>
+      </div>
+      <div class="container flex flex-col md:flex-row my-10 px-5 xl:mx-auto justify-center items-center">
+        <div class="flex flex-col items-center">
+          <h3 class="text-center text-2xl border-b-4 border-blue-400 pb-1 mb-5">SEO</h3>
+          <img class="w-10/12 animate-fade-in-down" src="./img/seo.jpg" alt="SEO">
+        </div>
+        <div class="w-full md:w-6/12 mx-10 my-10">
+          <p>SEO (search engine optimization) has become a vital part of any businesses online presence and also has become much more complicated throughout the years. <br> <br> With Google constantly changing the rules and regulations and new competitors joining every day, SEO is a difficult strategy to navigate. However, it has never been more profitable for companies who do it well and rank for popular keywords and phrases. <br> <br> Nidus Digital has thorough SEO experience and has a finger on the pulse when it comes to Google’s money printing machine - Google Page Rank. One of our websites generated over 2 million organic search impressions just a few months after it was created.</p>
+        </div>
+      </div>
+      <div class="container flex flex-col md:flex-row my-10 px-5 xl:mx-auto justify-center items-center">
+        <div class="flex flex-col items-center">
+          <h3 class="text-center text-2xl border-b-4 border-blue-400 pb-1 mb-5">Branding</h3>
+          <img class="w-10/12" src="./img/branding.jpg" alt="Branding">
+        </div>
+        <div class="w-full md:w-6/12 mx-10 my-10">
+          <p>Branding is arguably the most important part of any business because it is the first thing that customers see and dictates how they perceive your company from the get-go. <br> <br> Nidus Digital focuses on creating modern logos, copy, slogans, and overall cohesive brand images that resonate with potential customers. <br> <br> Not only is branding important for acquiring customers, it sets the precedent for how much your company can charge and how likely customers are to purchase again.</p>
+        </div>
+      </div>
+      <div class="container flex flex-col md:flex-row my-10 px-5 xl:mx-auto justify-center items-center">
+        <div class="flex flex-col items-center">
+          <h3 class="text-center text-2xl border-b-4 border-blue-400 pb-1 mb-5">Paid Advertising</h3>
+          <img class="w-10/12" src="./img/paid.jpg" alt="Paid Advertising">
+        </div>
+        <div class="w-full md:w-6/12 mx-10 my-10">
+          <p>The paid advertising space as it exists in 2022 has never been more complicated with a plethora of networks such as Google Search, Google Display Network, Facebook, Instagram, Snapchat, Pinterest, Tik Tok and many more. <br> <br> Nidus Digital develops a tailored digital marketing strategy based on your company's goals to use your ad spend strategically and return the highest possible ROAS (return on ad spend). <br> <br> Our experts focus on creating strategies that can scale and can be deployed on multiple platforms to maximize returns and decrease costs. </p>
         </div>
       </div>
     </section>
+    <section id="about" class="bg-[url('/img/bg.png')] bg-cover">
+      <div class="container flex flex-col lg:flex-row py-20 my-20 px-10 xl:mx-auto text-white lg:items-center">
+        <div class="flex flex-col w-full lg:w-6/12 items-center lg:items-start">
+          <h3 class="font-bold text-center lg:text-left">COMPARISON</h3>
+          <h1 class="text-4xl font-semibold tracking-wide text-center lg:text-left leading-10 mt-4 lg:mr-10">
+            See how we stack up against the competition
+          </h1>
+          <p class="text-center lg:text-left w-full md:w-2/3 my-8">
+            Nidus Digital is different than the competitors and here's why. We take a more holistic approach to designing and developing while always keeping the business objective in mind. We are a new agency and are excited to prove ourselves.
+          </p>
+        </div>
+        <div class="flex flex-col w-full lg:w-6/12 lg:ml-12 items-center">
+          <table
+            class="table-auto bg-white text-black drop-shadow-lg text-small md:text-base lg:text-lg rounded mt-10"
+          >
+            <thead>
+              <tr>
+                <th class="bg-transparent"></th>
+                <th class="bg-gray-100 p-4">Nidus Digital</th>
+                <th class="p-3">Other Agencies</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="border-b-2 border-t-2">
+                <td class="px-6 py-2">Lower cost of development</td>
+                <td class="text-center text-green-400 bg-gray-100 text-3xl">
+                  &#10003;
+                </td>
+                <td class="text-center text-red-400 text-2xl">&#10005;</td>
+              </tr>
+              <tr class="border-b-2">
+                <td class="px-6 py-2">Unlimited revisions</td>
+                <td class="text-center text-green-400 bg-gray-100 text-3xl">
+                  &#10003;
+                </td>
+                <td class="text-center text-red-400 text-2xl">&#10005;</td>
+              </tr>
+              <tr class="border-b-2">
+                <td class="px-6 py-2">Wicked fast support</td>
+                <td class="text-center text-green-400 bg-gray-100 text-3xl">
+                  &#10003;
+                </td>
+                <td class="text-center text-red-400 text-2xl">&#10005;</td>
+              </tr>
+              <tr class="border-b-2">
+                <td class="px-6 py-2">Uses the latest technologies</td>
+                <td class="text-center text-green-400 bg-gray-100 text-3xl">
+                  &#10003;
+                </td>
+                <td class="text-center text-red-400 text-2xl">&#10005;</td>
+              </tr>
+              <tr class="border-b-2">
+                <td class="px-6 py-2">Faster development</td>
+                <td class="text-center text-green-400 bg-gray-100 text-3xl">
+                  &#10003;
+                </td>
+                <td class="text-center text-red-400 text-2xl">&#10005;</td>
+              </tr>
+              <tr">
+                <td class="px-6 py-2">Full service shop</td>
+                <td class="text-center text-green-400 bg-gray-100 text-3xl">
+                  &#10003;
+                </td>
+                <td class="text-center text-red-400 text-2xl">&#10005;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section id="schedule-call">
+      <div class="container flex flex-col md:flex-row px-10 my-12 md:my-20 xl:mx-auto md:py-10 items-center">
+        <div class="flex flex-col md:hidden w-full items-center">
+          <h3 class="font-bold text-center">LET'S GET STARTED</h3>
+          <h1 class="text-4xl font-semibold mt-4 text-center">
+            Schedule a strategy call to find out how we can help
+          </h1>
+          <p class="my-8 text-center">
+            Use the calendar to book a <span class="font-bold">FREE</span> strategy call with one of our analysts to talk about how your business can win online. After the call we will send you a recap about what we talked about and the next steps if you choose to move forward with Nidus Digital.
+          </p>
+        </div>
+        <div class="flex flex-col w-full mt-10 md:mt-0 md:w-6/12">
+          <div class="calendly-inline-widget rounded drop-shadow-lg" data-url="https://calendly.com/clayton-nidus-digital/30min?hide_event_type_details=1&text_color=000000&primary_color=35acb8" style="min-width:300px;height:600px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        </div>
+        <div class="hidden md:flex flex-col md:w-6/12 ml-20">
+          <h3 class="font-bold">LET'S GET STARTED</h3>
+          <h1 class="text-4xl font-semibold mt-4">
+            Schedule a strategy call to find out how we can help
+          </h1>
+          <p class="my-8">
+            Use the calendar to book a <span class="font-bold">FREE</span> strategy call with one of our analysts to talk about how your business can win online. After the call we will send you a recap about what we talked about and the next steps if you choose to move forward with Nidus Digital.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="bg-black pt-12 font-bold text-white">
+      <div class="flex justify-center">
+        <div class="flex flex-col">
+          <h1 class="text-5xl text-center">
+            Contact
+          </h1>
+          <p class="text-lg mt-5 text-center">Email: <a href="mailto:clayton@nidusdigital.com" class="hover:underline">clayton@nidusdigital.com</a></p>
+          <p class="text-lg mt-2 text-center">Phone: <a href="tel:970-987-4747" class="hover:underline">970-987-4747</a></p>
+        </div>
+       
+      </div>
+      <div class=
+      "border-t-2 border-white w-100 mt-10 pt-5 pb-5"><p class="font-normal text-sm md:text-base text-center">Copyright &copy; 2022 Nidus Digital LLC. All rights reserved. </p></div>
+    </footer>
+   
     <script src="./js/script.js"></script>
   </body>
 </html>
